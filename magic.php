@@ -9,8 +9,6 @@ class Person {
   public function fullName () {
     return $this->first_name . ' ' . $this->last_name;
   }
-  public static $city = 'feni';
-  const CITY = 'feni2';
 }
 $arafat = new Person('arafat', 'rahman');
 echo $arafat->fullName();
